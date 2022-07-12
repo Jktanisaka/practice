@@ -1,27 +1,59 @@
 body {
-  background: linear-gradient(45deg, #000, #000, #000, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 40s ease infinite;
+  background: url("./brick\ backgrounds.jpeg");
   height: 100vh;
+}
+
+.none {
+  display: none !important;
 }
 
 .neonderthaw {
   font-family: neonderthaw, sans-serif;
-  color: rgb(86, 137, 248);
-  text-shadow: 1px 1px 10px #fff;
-  font-size: 48px !important;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
+.nav-style {
+  font-family: clip, sans-serif;
+  color: rgb(226, 61, 199) !important;
+  text-shadow: 1px 1px 1px rgb(236, 130, 43) !important;
+  font-size: 2rem !important;
+}
+
+.name-font {
+  font-family: neon, sans-serif;
+  color: rgb(86, 137, 248);
+  text-shadow: 1px 1px 15px #fff;
+  font-size: 3rem !important;
+  animation: flicker 3s infinite alternate;
+}
+
+@font-face {
+  font-family: neon;
+  src: url("/NEON____.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: clip;
+  src: url("/Clip.ttf") format("truetype");
+}
+
+@keyframes flicker {
+  40% {
+    opacity: 1;
   }
 
-  50% {
-    background-position: 100% 50%;
+  42% {
+    opacity: 0.8;
   }
 
-  100% {
-    background-position: 0% 50%;
+  43% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
   }
 }
