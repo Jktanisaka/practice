@@ -1,5 +1,6 @@
 body {
   background: url("./brick\ backgrounds.jpeg");
+  background-size: cover;
   height: 100vh;
 }
 
