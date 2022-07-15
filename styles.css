@@ -22,7 +22,7 @@ body {
 .name-font {
   font-family: neon, sans-serif;
   color: rgb(86, 137, 248);
-  text-shadow: 1px 1px 15px #fff;
+  text-shadow: 3px 3px 15px rgb(65, 87, 174);
   font-size: 3rem !important;
   animation: flicker 3s infinite alternate;
 }
