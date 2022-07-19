@@ -19,6 +19,16 @@ body {
   font-size: 2rem !important;
 }
 
+.poster {
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.tearaway {
+  background-color: antiquewhite;
+  transform: rotate(90deg);
+}
+
 .name-font {
   font-family: neon, sans-serif;
   color: rgb(86, 137, 248);
